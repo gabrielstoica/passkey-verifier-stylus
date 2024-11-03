@@ -17,6 +17,10 @@ Through a Stylus-based smart contract, called `P256Verifier`, we're executing th
 Current implementation is not the most optimized one. Custom precompiles can be used to further reduce gas fee costs and improve on efficiency. For example, the secp256r1 precompile as per [RIP-7212](https://github.com/ethereum/RIPs/blob/master/RIPS/rip-7212.md).
 Also, depending on the math complexity within the odin-rs/secp256r1 library, the Stylus contract size may exceed the maximum contract size (24.7 KB). Therefore, further optimizations might be needed to compress the size as much as possible.
 
+## Deployments
+
+**Currently, the P256 verifier has been deployed to Arbitrum Sepolia at the [0x084d90db86d4f6075746b76dc8fbfe5c8cff2700](https://sepolia.arbiscan.io/address/0x084d90db86d4f6075746b76dc8fbfe5c8cff2700#code) address.**
+
 ## Quick Start
 
 Install [Rust](https://www.rust-lang.org/tools/install), and then install the Stylus CLI tool with Cargo
