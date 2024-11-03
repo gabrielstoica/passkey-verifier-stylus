@@ -17,7 +17,8 @@ Through a Stylus-based smart contract, called `P256Verifier`, we're executing th
 ## Future directions
 
 Current implementation is not the most optimized one. Custom precompiles can be used to further reduce gas fee costs and improve on efficiency. For example, the secp256r1 precompile as per [RIP-7212](https://github.com/ethereum/RIPs/blob/master/RIPS/rip-7212.md) must be implemented as next step.
-Also, depending on the math complexity within the `odin-rs/secp256r1` library, the Stylus contract size may exceed the maximum contract size (24.7 KB). We did optimizations and Therefore, further optimizations might be needed to compress the size as much as possible.
+
+Also, depending on the math complexity within the `odin-rs/secp256r1` library, the Stylus contract size may exceed the maximum contract size (24.7 KB). Therefore, further optimizations might be needed to compress the size as much as possible.
 
 ## Deployments
 
