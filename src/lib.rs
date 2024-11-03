@@ -1,15 +1,13 @@
 // Allow `cargo stylus export-abi` to generate a main function.
-#![allow(dead_code)]
-#![allow(unused_imports)]
 #![cfg_attr(not(feature = "export-abi"), no_main)]
 extern crate alloc;
 
+/// Import odin-rs/secp256r1 lib as p256
 use p256;
 /// Import items from the SDK. The prelude contains common traits and macros.
 use stylus_sdk::prelude::*;
 
-// Define some persistent storage using the Solidity ABI.
-// `Counter` will be the entrypoint.
+// Define some dummy persistent storage for future implementations.
 sol_storage! {
     #[entrypoint]
     pub struct P256Verifier {
