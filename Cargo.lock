@@ -915,7 +915,7 @@ dependencies = [
 [[package]]
 name = "elliptic_curve_math"
 version = "0.1.0"
-source = "git+https://github.com/gabrielstoica/odin-rs#986e04262b0da99db338b97137dc052e8684f9bd"
+source = "git+https://github.com/gabrielstoica/odin-rs#12314ee9b2b6657cebc8c06d5246d15844a72fdb"
 dependencies = [
  "num-bigint",
 ]
@@ -2960,7 +2960,7 @@ dependencies = [
 [[package]]
 name = "secp256r1"
 version = "0.1.0"
-source = "git+https://github.com/gabrielstoica/odin-rs#986e04262b0da99db338b97137dc052e8684f9bd"
+source = "git+https://github.com/gabrielstoica/odin-rs#12314ee9b2b6657cebc8c06d5246d15844a72fdb"
 dependencies = [
  "elliptic_curve_math",
  "num-bigint",
